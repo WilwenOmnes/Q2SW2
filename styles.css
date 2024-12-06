@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #343a40; /* Dark gray background */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+      height: 80px;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    nav a {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      padding: 0.5rem;
+      }
+    .form-control {
+      max-width: 200px;
+    }
+    /* Style for the round logo */
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; /* Makes the logo round */
+      margin-right: 5px;
+    }
+
+/* Header */
+header {
+  background-color: #ffc107; /* Matches the yellow background in the screenshot */
+  border-bottom: 2px solid #e0a800;
+}
+
+header h1 {
+  margin-right: 12;
+  font-size: 1.75rem;
+}
+
+header nav a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #343a40; /* Dark gray for the text */
+}
+
+header form .form-control {
+  border: 1px solid #e0a800;
+}
+
+header form .btn {
+  color: #343a40; /* Dark gray */
+  background-color: #fff;
+  border: 1px solid #e0a800;
+}
+
+/* Main Content */
+main h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+main p {
+  font-size: 1rem;
+  color: #6c757d; /* Muted gray for the subtitle text */
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  height: 200px; /* Uniform height for all images */
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Matches the yellow */
+  border: none;
+  font-weight: bold;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Slightly darker yellow for hover effect */
+}
+
+/* Category Title Box Styles */
+.category-title-box {
+  background-color: lightgray; /* Dark background for the title box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle effect */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.category-title-box h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px; /* Spacing between the title and the description */
+}
+
+.category-title-box p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black; /* Light gray text for the description */
+}
+
+.category-box .card-img-top {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.category-box .card-body {
+  padding: 1rem;
+}
+
+.category-box .card-title {
+  font-weight: bold;
+}
+
+.category-box .card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.category-box .btn-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('background.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Carousel Styling */
+.carousel {
+  width: 80%; /* Set carousel width to 80% of its parent container */
+  margin: 20px auto; /* Center the carousel and add spacing */
+  padding: 10px; /* Add padding inside the border */
+  border: 5px double black; /* Double border with yellow color */
+  border-radius: 20px; /* Rounded corners for the border */
+     background-image: linear-gradient(to left, black, lightgoldenrodyellow);
+}
+
+.carousel img {
+  width: 100%; /* Ensure the images fill the carousel container */
+  height: 400px; /* Set height for uniformity */
+  object-fit: cover; /* Ensure images cover the container without distortion */
+  border-radius: 10px; /* Slight rounding of the images */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  color: #ffc107; /* Yellow title text */
+  font-size: 1.5rem;
+}
+
+.carousel-caption p {
+  color: #fff; /* White text for description */
+  font-size: 1rem;
+}
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8a945;
+}
+
+h2 {
+  color: #f8a945;
+}
+
+.category-box {
+  background-color: #fff;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.btn-warning {
+  background-color: #f8a945;
+  color: #fff;
+  border: none
+}
+
+.btn-warning:hover {
+  background-color: #e6892c;
+
+
